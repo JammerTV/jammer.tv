@@ -1,4 +1,4 @@
-# Jammer.tv v4
+# Jammer.tv [v4]
 [Jammer.tv](https://jammer.tv) is an aggregator of live and archived video content. We skew towards Game Jams, Game Development, 
 and Demoscene related content, but in general we're interested in showcasing creativity with computers.
 
