@@ -4,7 +4,7 @@ import style from './style.css';
 
 const Header = () => (
 	<header class={style.header}>
-		<h1>Jammer.tv</h1>
+		<img src="/assets/logo/JammerLogo84W.png" />
 		<nav>
 			<Link activeClassName={style.active} href="/">Home</Link>
 			<Link activeClassName={style.active} href="/about">About</Link>
