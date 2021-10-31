@@ -1,9 +1,9 @@
 import { h } from 'preact';
 import style from './style.css';
 
-const Item = ({channel, onClick}) => (
+const Item = ({data, onClick}) => (
 	<div class={style.item}>
-        <img src={channel} alt={channel} onClick={onClick} />
+        <img src={data.thumbnail_720p} alt={data.user_name} onClick={onClick} />
 	</div>
 );
 
