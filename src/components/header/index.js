@@ -4,11 +4,12 @@ import style from './style.css';
 
 const Header = () => (
 	<header class={style.header}>
-		<img src="/assets/logo/JammerLogo84W.png" />
-		<nav>
-			<Link activeClassName={style.active} href="/">Home</Link>
-			<Link activeClassName={style.active} href="/about">About</Link>
-		</nav>
+		<div>
+			<Link class={style.logo} activeClassName={style.active} href="/"><img src="/assets/logo/JammerLogo84W.png" /></Link>
+			<nav>
+				<Link activeClassName={style.active} href="/about">About</Link>
+			</nav>
+		</div>
 	</header>
 );
 

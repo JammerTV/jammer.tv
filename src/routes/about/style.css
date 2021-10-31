@@ -1,5 +1,20 @@
 .about {
-	padding: 56px 20px;
+	padding: 56px 0;
 	min-height: 100%;
 	width: 100%;
+
+	color: #EEE;
+}
+
+.about > div {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.about h1 {
+	color: #EB3;
+}
+
+.about a {
+	color: #B73A37;
 }

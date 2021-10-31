@@ -10,12 +10,24 @@
 	z-index: 50;
 }
 
-.header img {
+.header > div {
+	position: relative;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.header .logo img {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 
 	padding: 0 1rem;
+}
+
+.header .logo {
+	display: inline-block;
+	height: 56px;
+	will-change: background-color;
 }
 
 .header h1 {
@@ -37,7 +49,7 @@
 	display: inline-block;
 	height: 56px;
 	line-height: 56px;
-	padding: 0 15px;
+	padding: 0 1rem;
 	min-width: 50px;
 	text-align: center;
 	background: rgba(255,255,255,0);
@@ -47,7 +59,8 @@
 }
 
 .header nav a:hover,
-.header nav a:active {
+.header nav a:active,
+.header .logo:hover {
 	background: rgba(0,0,0,0.2);
 }
 

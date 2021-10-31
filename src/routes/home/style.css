@@ -3,10 +3,13 @@
 	min-height: 100%;
 	width: 100%;
 	background-color: black;
+
+	max-width: 1200px;
+	margin: auto;
 }
 
 .home .video {
-	margin: 1rem;
+	margin: 1rem 0;
 
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
