@@ -1,11 +1,10 @@
 import { h } from 'preact';
 import style from './style.css';
+import Video from '../../components/video';
 
 const Home = () => (
 	<div class={style.home}>
-		<div class={style.video}>
-			<iframe src="https://player.twitch.tv/?channel=esl_sc2&parent=new.jammer.tv" frameborder="0" allowfullscreen="true" allow="autoplay; fullscreen" scrolling="no"></iframe>
-		</div>
+		<Video channel="esl_sc2" />
 	</div>
 );
 
