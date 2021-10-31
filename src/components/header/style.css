@@ -56,6 +56,9 @@
 	text-decoration: none;
 	color: #FFF;
 	will-change: background-color;
+
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 .header nav a:hover,
