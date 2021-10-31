@@ -1,0 +1,15 @@
+
+.item {
+	border: 1px solid white;
+	width: 128px;
+	height: 96px;
+
+	cursor: pointer;
+
+	display: inline-block;
+}
+
+/* this didn't work in routes/home/style.css, so we're cheating */
+.item {
+    margin: 1rem 1rem 0 0;
+}
