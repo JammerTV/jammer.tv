@@ -9,25 +9,25 @@ const Feeds = [
 		slug: "ludum-dare",
 		url: "https://api.jammer.tv/v1/get/cat/ludum-dare",
 		title: "Ludum Dare",
-		description: "lets have fun"
+		description: "One of the largest online game jams, Ludum Dare challenges participants to make a game from scratch in a weekend."
 	},
 	{
 		slug: "demoscene",
 		url: "https://api.jammer.tv/v1/get/cat/demoscene",
 		title: "Demoscene",
-		description: "do things"
+		description: "A computer art subculture focused on creating self contained programs that produce audiovisual presentations."
 	},
 	{
 		slug: "game-jam",
 		url: "https://api.jammer.tv/v1/get/cat/game-jam",
 		title: "Game Jams",
-		description: "jam"
+		description: "Game jams are contests where particpants make games from scratch, often in a short period of time."
 	},
 	{
 		slug: "game-dev",
 		url: "https://api.jammer.tv/v1/get/cat/game-dev",
 		title: "Game Development",
-		description: "dev"
+		description: "The art of creating games."
 	}
 ]
 
